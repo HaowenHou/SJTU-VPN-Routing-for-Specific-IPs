@@ -26,9 +26,9 @@ Note that this approach is available for not only SJTU VPN, but for all the VPNs
     
     - `Advanced...` > Uncheck `Use default gateway on remote network`
 
-    <div style="text-align: center;">
+    <p align="center">
         <img src="pics\change_windows_default_routing.png" width="350"/>
-    </div>
+    </p>
 
 3. Routing specific IPs
 

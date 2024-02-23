@@ -16,12 +16,12 @@ def is_admin():
 
 def delete_current_routes(ips):
     for ip in ips:
-        os.system(f'route delete {ip}')
+        os.system(rf'C:\Windows\System32\route.exe delete {ip}')
 
 
 def add_routes(ips, interface):
     for ip in ips:
-        os.system(f'route add {ip} mask 255.255.255.255 {interface}')
+        os.system(rf'C:\Windows\System32\route.exe add {ip} mask 255.255.255.255 {interface}')
 
 
 if __name__ == '__main__':
